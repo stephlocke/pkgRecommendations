@@ -1,0 +1,41 @@
+Package: pkgRecommendations
+Title: Downloader for preferred packages
+Version: 1.0.0.0
+Authors@R: person("Steph", "Locke",   email="stephanie.g.locke@gmail.com", role = c("aut", "cre"))
+Description: Simply gets all packages in the Imports.
+Depends:
+    R (>= 3.1.2)
+Imports:
+    devtools,
+    data.table,
+    dplyr,
+    DiagrammeR,
+    shiny,
+    Hmisc,
+    foreach,
+    memisc,
+    optiRum,
+    readxl,
+    readr,
+    RODBC,
+    testthat,
+    ezknitr,
+    rmarkdown,
+    knitr,
+    leaflet,
+    dygraphs,
+    plotly,
+    DT,
+    revealjs,
+    vegalite,
+    lubridate,
+    stringi,
+    ggmap,
+    xts,
+    urltools
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+URL: https://github.com/stephlocke/pkgRecommendations
+BugReports: https://github.com/stephlocke/pkgRecommendations/issues
