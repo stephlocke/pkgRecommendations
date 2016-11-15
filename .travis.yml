@@ -8,3 +8,5 @@ addons:
     packages:
     - unixodbc-dev
     - libcurl4-openssl-dev
+r_github_packages:
+  - cran/survival
