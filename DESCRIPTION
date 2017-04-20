@@ -1,6 +1,6 @@
 Package: pkgRecommendations
 Title: Downloader for preferred packages
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: person("Steph", "Locke",   email="stephanie.g.locke@gmail.com", role = c("aut", "cre"))
 Description: Simply gets all packages in the Imports.
 Depends:
@@ -37,7 +37,8 @@ Imports:
     tidyverse,
     broom,
     forcats,
-    caret
+    caret,
+    e1071
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
